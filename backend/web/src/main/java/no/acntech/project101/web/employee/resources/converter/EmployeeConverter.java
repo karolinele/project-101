@@ -12,6 +12,7 @@ public class EmployeeConverter implements Converter<EmployeeDto, Employee> {
     @Override
     public Employee convert(final EmployeeDto source) {
         //TODO Map from DTO to employee
-        return null;
+        return new Employee(source.getFirstName(), source.getLastName(), source.getDateOfBirth());
     }
 }
+

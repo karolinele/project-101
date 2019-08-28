@@ -6,11 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import no.acntech.project101.company.Company;
 import no.acntech.project101.company.service.CompanyService;
 import no.acntech.project101.employee.Employee;
-import no.acntech.project101.employee.service.EmployeeService;
-import no.acntech.project101.web.employee.resources.EmployeeDto;
-import no.acntech.project101.web.employee.resources.EmployeeResource;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
